@@ -8,8 +8,7 @@
     <!-- End of Meta Tags -->
 
     <!-- Css Links -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <!-- End of Css Links -->
 
     <!-- Title -->
@@ -20,56 +19,52 @@
     <!-- Contaier -->
     <div id="container">
         <!-- Input -->
-        <div id="solve" class="gridOne">
-        filler
-        </div>
+        <input id="display" class="gridOne">
+        
         <!-- End of Input -->
 
         <!-- Numbers -->
-        <div id="seven" class="box gridTwo numbers"> 7 </div>
-        <div id="eight" class="box gridTwo numbers"> 8 </div>
-        <div id="nine" class="box gridTwo numbers"> 9 </div>
+        <button id="seven" class="box gridTwo button" data-type="number"> 7 </button>
+        <button id="eight" class="box gridTwo button" data-type="number"> 8 </button>
+        <button id="nine" class="box gridTwo button" data-type="number"> 9 </button>
 
         <!-- Operator -->
-        <div id="add" class="box gridTwo operators"> &#43; </div>
+        <button id="add" class="box gridTwo button" data-type="operator"> &#43; </button>
         
         <!-- Numbers -->
-        <div id="four" class="box gridThree numbers"> 4 </div>
-        <div id="five" class="box gridThree numbers"> 5 </div>
-        <div id="six" class="box gridThree numbers"> 6 </div>
+        <button id="four" class="box gridThree button" data-type="number"> 4 </button>
+        <button id="five" class="box gridThree button" data-type="number"> 5 </button>
+        <button id="six" class="box gridThree button" data-type="number"> 6 </button>
 
         <!-- Operator -->
-        <div id="sub" class="box gridThree operators"> &#45;  </div>
+        <button id="sub" class="box gridThree button" data-type="operator"> &#45;</button>
 
         <!-- Numbers -->
-        <div id="one" class="box gridFour numbers"> 1 </div>
-        <div id="two" class="box gridFour numbers"> 2 </div>
-        <div id="three" class="box gridFour numbers"> 3 </div>
+        <button id="one" class="box gridFour button" data-type="number"> 1 </button>
+        <button id="two" class="box gridFour button" data-type="number"> 2 </button>
+        <button id="three" class="box gridFour button" data-type="number"> 3 </button>
 
         <!-- Operator -->
-        <div id="multi" class="box gridFour operators"> &#42; </div>
+        <button id="multi" class="box gridFour button" data-type="operator"> &#42; </button>
 
         <!-- Clear Button -->
-        <div id="clear" class="box gridFive clearBtn"> C </div>
+        <button id="clear" class="box gridFive button" data-type="manipulator"> C </button>
 
         <!-- Number -->
-        <div id="zero" class="box gridFive numbers"> 0 </div>
+        <button id="zero" class="box gridFive button" data-type="number"> 0 </button>
+        <button id="deci" class="box  gridFive button" data-type="number"> &#46; </button>
 
         <!-- Operators -->
-        <div id="deci" class="box  gridFive operators"> &#46; </div>
-        <div id="divi" class="box gridFive operators"> &#47; </div>
+        <button id="div" class="box gridFive button" data-type="operator"> &#47; </button>
 
-
-        <div id="equal" class="box gridSix operators"> &#61; </div>
+        <!-- Evaluator -->
+        <button id="equal" class="box gridSix button" data-type="evaluator"> &#61; </button>
 
     </div>
     
 
     <!-- JS Links -->
-    <script src="js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="module" src="assets/js/app.js"></script>
     <!-- End of JS Links -->
 </body>
 </html>
